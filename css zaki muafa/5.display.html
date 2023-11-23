@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .block-element{
+            display: block;
+            background-color: red;
+            width: 200px;
+            height: 100px;
+        }
+        .inline-element {
+            display: inline;
+            background-color: blue;
+            padding: 10px;
+        }
+        .inline-block-element {
+            display: inline-block;
+            background-color: green;
+            width: 150px;
+            height: 150px;
+        }
+        .flex-container {
+            display: flex;
+            background-color: yellow;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-element">block element</div>
+
+    <span class="inline-element">inline element</span>
+
+    <div class="inline-block-element">inline block element</div>
+
+    <div class="flex-container">
+        <div> flex item 1</div>
+        <div>felx item 1</div>
+        <div>flex item 3</div>
+    </div>
+
+    <div class="grid-container">
+        <div>grid item 1</div>
+        <div>grid item 2</div>
+        <div>grid irem 3</div>
+        <div>grid item 4</div>
+    </div>
+</body>
+</html>
